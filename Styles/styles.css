@@ -12,7 +12,7 @@ header{
     height: 46%;
     display: flex;
     background-color: #18835d;
-    color:#08261d;
+    color: #eefbf4;
 }
 .container-1{
     width: 50%;
@@ -112,7 +112,7 @@ header{
 }
 .blocks-references{
     width: 60%;
-    height: 30%;
+    height: 25%;
     background-color: #7ed7b0;
     margin-left: 5.5rem;
     margin-top: 1rem;
@@ -127,4 +127,24 @@ header{
 }
 .text-references >p{
     margin-bottom: 0.2rem;
+}
+.section-experience{
+    width: 100%;
+    height: 60%;
+}
+.content-experience{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    margin-top: 1rem;
+}
+.img-experience{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.img-experience >img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
 }
