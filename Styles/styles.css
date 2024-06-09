@@ -134,7 +134,7 @@ header{
 }
 .content-experience{
     width: 100%;
-    height: 35%;
+    height: 40%;
     display: flex;
     margin-top: 1rem;
 }
@@ -147,4 +147,24 @@ header{
     width: 6rem;
     height: 6rem;
     border-radius: 50%;
+}
+.content-progress{
+    display: flex;
+    justify-content: center;
+}
+.progress {
+    height: 1.3rem;
+    width: 70%;
+    border-radius: 15px;
+    background-color: #b1e9cc;
+    margin-bottom: 0.2rem;
+    margin-top: 0.5rem;
+}
+ 
+.progress-bar {
+    height: 100%;
+    background: #18835d;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
 }
