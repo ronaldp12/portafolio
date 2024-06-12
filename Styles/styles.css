@@ -61,9 +61,9 @@ header{
 }
 .section-projects >hr{
     background-color: #104433;
-    width: 98%;
+    width: 30%;
     height: 0.6rem;
-    margin: 0.7rem;
+    margin-top: 0.7rem;
 }
 .content-img{
     width: 2.5rem;
@@ -106,9 +106,9 @@ header{
 }
 .section-references >hr{
     background-color: #104433;
-    width: 98%;
+    width: 30%;
     height: 0.6rem;
-    margin: 0.7rem;
+    margin-top: 0.7rem;
 }
 .blocks-references{
     width: 60%;
@@ -167,4 +167,8 @@ header{
     display: flex;
     align-items: center;
     border-radius: 15px;
+}
+
+@media screen and (min-width: 430px) and (max-width: 479px) {
+    
 }
