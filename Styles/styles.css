@@ -390,12 +390,30 @@ header{
         height: 45rem;
         margin-left: 18rem;
     }
+    .title-section1 >h2{
+        margin-left: 0.8rem;
+        font-size: 2rem;
+    }
     .section-references{
         margin-left: 18rem;
         width: 80%;
+        height: 62%;
     }
     .section-experience{
         margin-left: 18rem;
         width: 80%;
+    }
+    .blocks{
+        margin-left: 6rem;
+    }
+    .blocks-references{
+        width: 80%;
+        height: 26%;
+        background-color: #7ed7b0;
+        margin-left: 8rem;
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
     }
 }
