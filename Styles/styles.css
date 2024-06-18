@@ -448,6 +448,30 @@ header{
         margin-left: 18rem;
         width: 80%;
     }
+    .content-experience{
+        width: 100%;
+        height: 38%;
+        display: flex;
+        margin-bottom: 2rem;
+        justify-content: center;
+    }
+    .img-experience{
+        width: 40%;
+        height: 100%;
+        text-align: center;
+    }
+    .img-experience >img{
+        margin-bottom: 1rem;
+        width: 9rem;
+        height: 9rem;
+    }
+    .img-experience >p{
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+    .progress{
+        width: 60%;
+    }
     .blocks{
         margin-left: 6rem;
     }
