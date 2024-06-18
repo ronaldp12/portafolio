@@ -356,7 +356,7 @@ header{
         margin-bottom: 1rem;
     }
 }
-@media screen and (min-width: 1559px) and (max-width: 1600px) {
+@media screen and (min-width: 1559px) and (max-width: 1800px) {
     header{
         width: 16.5rem;
         height: 100%;
@@ -401,6 +401,21 @@ header{
         height: 45rem;
         margin-left: 18rem;
     }
+    .text-block >h4{
+        margin-left: 0.8rem;
+        margin-bottom: 0.7rem;
+        font-size: 1.8rem;
+    }
+    .text-block >p{
+        margin-right: 1rem;
+        margin-left: 0.8rem;
+        margin-bottom: 0.7rem;
+        font-size: 1.3rem;
+    }
+    .text-block >a{
+        margin-left: 0.8rem;
+        font-size: 1.3rem;
+    }
     .title-section1 >h2{
         margin-left: 0.8rem;
         font-size: 2rem;
@@ -408,7 +423,26 @@ header{
     .section-references{
         margin-left: 18rem;
         width: 80%;
-        height: 62%;
+        height: 60%;
+    }
+    .blocks-references{
+        width: 78%;
+        height: 26%;
+        background-color: #7ed7b0;
+        margin-left: 8.9rem;
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .text-references{
+        text-align: left;
+        align-items: center;
+        margin-left: 2rem;
+    }
+    .text-references >p{
+        margin-bottom: 0.5rem;
+        font-size: 1.2rem;
     }
     .section-experience{
         margin-left: 18rem;
@@ -417,14 +451,5 @@ header{
     .blocks{
         margin-left: 6rem;
     }
-    .blocks-references{
-        width: 80%;
-        height: 26%;
-        background-color: #7ed7b0;
-        margin-left: 8rem;
-        margin-top: 1rem;
-        display: flex;
-        align-items: center;
-        border-radius: 10px;
-    }
+    
 }
