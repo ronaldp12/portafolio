@@ -355,8 +355,12 @@ header{
     .img-experience >img{
         margin-bottom: 1rem;
     }
+    .img-experience >p{
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
 }
-@media screen and (min-width: 1559px) and (max-width: 1800px) {
+@media screen and (min-width: 1559px) and (max-width: 1930px) {
     header{
         width: 16.5rem;
         height: 100%;
